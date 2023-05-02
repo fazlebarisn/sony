@@ -1,7 +1,18 @@
 import React from "react";
 
 function Sidebar(){
-    return <h1>Sidebar</h1>
+
+    const asideStyle = {
+        background: "red",
+    }
+
+    return (
+        <aside
+            style={asideStyle} 
+            className="sidebar-component">
+            <h1>Hello from sidebar!</h1>
+        </aside>
+    )
 }
 
 export default Sidebar;
